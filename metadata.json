@@ -2,5 +2,7 @@
   "name": "FindIt – Lost & Found",
   "description": "A modern, college & community portal to report lost items, report found items, search belongings, and reunite them safely.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

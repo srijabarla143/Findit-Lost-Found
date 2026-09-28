@@ -10,6 +10,7 @@ import { Footer } from './components/Footer';
 import { ToastContainer } from './components/Toast';
 import { AuthModal } from './components/AuthModal';
 import { ItemDetailModal } from './components/ItemDetailModal';
+import { AIAssistantChat } from './components/AIAssistantChat';
 
 // Pages
 import { HomePage } from './pages/HomePage';
@@ -114,6 +115,9 @@ function MainApp() {
         isOpen={authModalOpen} 
         onClose={() => setAuthModalOpen(false)} 
       />
+
+      {/* Live AI Assistant Connected to n8n Webhook */}
+      <AIAssistantChat />
 
       {/* Footer */}
       <Footer />
